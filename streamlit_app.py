@@ -50,7 +50,7 @@ if prompt := st.chat_input("What is up?"):
             model = st.session_state["openai_model"],
             messages = [
                 {"role": m["role"], "content": m["content"]}
-                for m in st.session_state.message
+                for m in st.session_state.messages
             ],
             steam = True,
         )
