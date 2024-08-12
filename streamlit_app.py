@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-# from openai import OpenAI
+from openai import OpenAI
 
 # Streamed response emulator
 def response_generator():
