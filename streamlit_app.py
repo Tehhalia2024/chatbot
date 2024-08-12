@@ -1,8 +1,12 @@
 import streamlit as st
+import numpy as np
 # from openai import OpenAI
 
 with st.chat_message("assistant"):
-    st.write("Hello 👋")
+    st.write("Hello human 👋")
+    st.bar_chart(np.random.randn(30,))
+
+
 
 # # Show title and description.
 # st.title("💬 KopiO Kosong Chatbot")
