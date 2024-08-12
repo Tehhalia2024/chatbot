@@ -2,7 +2,7 @@ import streamlit as st
 
 # from openai import OpenAI
 
-at.title("Echo Bot")
+st.title("Echo Bot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
