@@ -52,7 +52,7 @@ if prompt := st.chat_input("What is up?"):
                 {"role": m["role"], "content": m["content"]}
                 for m in st.session_state.messages
             ],
-            steam = True,
+            stream = True,
         )
         response = st.write_stream(stream)
         #st.markdown(response)
