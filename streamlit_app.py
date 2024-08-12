@@ -8,7 +8,7 @@ from openai import OpenAI
 def response_generator():
     response = random.choice(
         [
-            "Hello there! How can I assist you today?",
+            "Hello there! How can I assist you today??",
             "Hi, human! Is there anything I can help you with?"
             "Do you need help?"
         ]
