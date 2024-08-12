@@ -1,7 +1,7 @@
 import streamlit as st
 # from openai import OpenAI
 
-with st.chat_message("user"):
+with st.chat_message("assistant"):
     st.write("Hello 👋")
 
 # # Show title and description.
