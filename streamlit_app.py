@@ -1,3 +1,4 @@
+pip install openai streamlit
 import streamlit as st
 import random
 import time
